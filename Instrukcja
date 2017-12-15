@@ -3,9 +3,9 @@ Obliczanie największego wspólnego dzielnika 2 liczb:
 -------
 Napisać funkcję obliczającą największy wspólny dzielnik dla dwóch zadanych liczb zgodnie z regułami :
 
-1. Jeżeli obie liczby x1 i x2 są równe, to NWD jest równy x1
-2. Jeżeli liczba x1  jest większa od x2 to NWD jest równy wynikowi z obliczenia NWD dla liczb x2 i różnicy x1 i x2
-3. Jeżeli liczba x2  jest większa od x1 to NWD jest równy wynikowi z obliczenia NWD dla liczb x1 i różnicy x2 i x1
+1. Jeżeli liczba x2 jest równa 0 to NWD jest równy x1
+2. Jeżeli liczba x1  jest większa od x2 to NWD jest równy wynikowi z obliczenia NWD dla liczb x2 i reszty z dzielenia x1 przez x2
+3. Jeżeli liczba x2  jest większa od x1 to NWD jest równy wynikowi z obliczenia NWD dla liczb x1 i eszty z dzielenia x2 przez x1
 
 Przykładowe działanie programu:
 
@@ -38,24 +38,24 @@ Zadanie z tablicami asocjacyjnymi
 --------------------
 
  W zadaniu należy zdefiniować dwie tablice asocjacyjne:
- 1. Zawierającą nazwy województw i ich kody z tablic rejestracyjnych (wybrać 6 dowolnych z listy http://pl.wikipedia.org/wiki/Województwo)
- 2. Zawierającą listy miast z danego województwa reprezentowanego przez jednoliterowy symbol z tablicy rejestracyjnej (wpisać po kilka lub co najmniej jedno miasto w 4 z 6 województw)
+ 1. Zawierającą nazwy państw i ich dwuliterowe kody np PL (wybrać 6 dowolnych)
+ 2. Zawierającą listy miast z danego państwa reprezentowanego przez dwuliterowy symbol państwa (wpisać po kilka lub co najmniej jedno miasto w 4 z 6 państw)
 
-Wypisać wszystkie miasta ze wszystkich województw, dla których podane są listy miast.
+Wypisać wszystkie miasta ze wszystkich państw, dla których podane są listy miast.
 
 Przykładowy wynik działania programu:
 
 ----------
-W woj: zachodniopomorskie są miasta: 
+Miasta w kraju Polska: 
 Szczecin
-Goleniow
-W woj: lubelskie są miasta: 
-Lublin
-W woj: wielkopolskie są miasta: 
-Poznan
-W woj: lubuskie są miasta: 
-Gorzow Wlk
-Zielona Gora
+Warszawa
+Miasta w kraju Niemcy: 
+Berlin
+Miasta w kraju Francja: 
+Paryz
+Miasta w kraju Czechy: 
+Praga
+Brno
 
 
-UWAGA: Województwa łódzkie i dolnośląskie nie są wymienione, bo nie podano dla nich żadnych miast.
+UWAGA: Państwa Węgry i Austria nie są wymienione, bo nie podano dla nich żadnych miast.
