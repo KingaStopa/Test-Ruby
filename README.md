@@ -1,2 +1,3 @@
 # Test-Ruby
-To repozytorium zawiera zadania do wykonania z przedmiotu Tworzenia aplikacji bazodanowych
+
+To repozytorium zawiera zadania do wykonania z przedmiotu Tworzenie aplikacji bazodanowych
